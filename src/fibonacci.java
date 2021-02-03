@@ -1,7 +1,5 @@
 // Author: John Palmer
-// Student ID: 250804907
 
-// Question 7 a, b, c
 
 public class fibonacci{
 
@@ -29,7 +27,6 @@ public class fibonacci{
         return newMat;
     }
 
-    // Question 7 a) 
     // Algorithm to compute nth Fibonacci number in O(2^n)
     public long fibonacci_expo(long n){
         // If n is 1 or 0, simply return n 
@@ -41,7 +38,6 @@ public class fibonacci{
         return fibonacci_expo(n-1) + fibonacci_expo(n-2);
     }
 
-    // Question 7 b) 
     // Algorithm to compute nth Fibonacci number in O(n)
     public BigInt[] fib_linear_nomatrix(int n){
         BigInt zero = new BigInt("0");
@@ -65,7 +61,6 @@ public class fibonacci{
         return result;
     }
 
-    // Question 7 b) 
     // Algorithm to compute nth Fibonacci number in O(n)
     public BigInt[][] fib_linear(int n){
         BigInt zero = new BigInt("0");
@@ -97,7 +92,6 @@ public class fibonacci{
         return result[0][0];
     }
 
-    // Question 7 c) 
     // Algorithm to compute nth Fibonacci number in O(logn)
     public BigInt[][] fib_logn(BigInt[][] matrix, int n){
         BigInt zero = new BigInt("0");

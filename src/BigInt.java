@@ -1,6 +1,4 @@
 // Author: John Palmer
-// Student ID: 250804907
-
 
 public class BigInt {
 
